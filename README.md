@@ -1,3 +1,27 @@
+
+
+
+### Nœud Producteur
+
+Le nœud producteur est une autre application open-source essentielle à Rudi, disponible dans le repository [rudi-producer-node](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node). Il regroupe toutes les fonctionnalités liées à la publication de données, telles que le chargement des jeux de données et la déclaration des métadonnées. Ce nœud est généralement géré par les producteurs de données au sein de leurs systèmes d'information ou sur des plateformes cloud.
+
+**Fonctionnalités principales** :
+- **Publication de jeux de données** : Permet aux producteurs de partager leurs données avec la communauté.
+- **Déclaration et gestion des métadonnées** : Facilite la catégorisation et l'indexation des données pour une recherche et une utilisation ultérieures plus efficaces.
+- **Hébergement sous la responsabilité des producteurs** : Les nœuds peuvent être hébergés directement par les producteurs de données ou via des nœuds mutualisés proposés par la gouvernance de la plateforme.
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![](logo.png)
 
 RUDI Producer Node - Rudi producer package for release deployments
