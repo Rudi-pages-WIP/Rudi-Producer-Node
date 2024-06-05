@@ -1,10 +1,10 @@
-# Guide d'Installation du Nœud Producteur de RUDI
+# Guide d'installation du nœud producteur de RUDI
 
-## Description Technique de Haut Niveau
+## Description technique de haut niveau
 
 Tous les projets sont des projets node.js et, à l'exception de *rudilogger* (une bibliothèque), ils fonctionnent comme des applications autonomes. La procédure d'installation standard de NPM peut être utilisée.
 
-### Dépendances et Installation
+### Dépendances et installation
 
 La bibliothèque *rudilogger* est référencée par les modules rudi-media, rudi-api et rudi-manager. Le package logger est également disponible via le gestionnaire de packages [*aqmo.org*](https://repository.aqmo.org/npm/).
 
@@ -14,11 +14,11 @@ Une base de données locale MongoDB est requise par le module rudi-api et est fa
 
 Plusieurs modules nécessitent un accès à une base de données MongoDB publique ou privée. La base de données est obligatoire uniquement pour le module API. L'installation a été validée avec la version 3.9 de MongoDB.
 
-### Déploiement Actuel
+### Déploiement actuel
 
 Ce package est actuellement utilisé pour la génération de diverses images de conteneurs (OVA, LXD, etc.). Un projet différent gère les déploiements complexes.
 
-### Auteurs et Remerciements
+### Auteurs et remerciements
 
 - François Bodin - Université Rennes 1 (VALIDATION)
 - Laurent Morin - Université Rennes 1 (Système & Packaging)
@@ -76,7 +76,7 @@ npm start
 
 Assurez-vous que tous les modules fonctionnent correctement en vérifiant les logs et en accédant aux interfaces web si disponibles.
 
-## Problèmes, Questions ou Propositions d'Améliorations
+## Problèmes, questions ou propositions d'améliorations
 
 Nous avons prévu plusieurs espaces pour vos besoins :
 - [Issues](https://github.com/Rudi-pages-WIP/Rudi-Portal/issues) (pour les problèmes)
