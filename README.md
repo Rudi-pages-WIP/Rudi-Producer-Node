@@ -1,48 +1,28 @@
+![image](https://github.com/Rudi-pages-WIP/.github/assets/14858948/4d9e6101-e842-4a72-9b85-982e272622cd)
 
+# Dépôt de code de Nœud Producteur de RUDI
 
+Bienvenue dans le dépôt de code du nœud producteur de RUDI. Ce dépôt regroupe toutes les fonctionnalités nécessaires à la publication de données, telles que le chargement des jeux de données et la déclaration des métadonnées. Le nœud producteur de RUDI est défini dans le projet [RUDI Open-Data](https://rudi.datarennes.fr/).
 
-### Nœud Producteur
+## Rôle du Nœud Producteur RUDI
 
-Le nœud producteur est une autre application open-source essentielle à Rudi, disponible dans le repository [rudi-producer-node](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node). Il regroupe toutes les fonctionnalités liées à la publication de données, telles que le chargement des jeux de données et la déclaration des métadonnées. Ce nœud est généralement géré par les producteurs de données au sein de leurs systèmes d'information ou sur des plateformes cloud.
+Les nœuds peuvent être hébergés directement par les producteurs de données ou via des nœuds mutualisés proposés par la gouvernance de la plateforme.
 
-**Fonctionnalités principales** :
+**Fonctionnalités principales :**
 - **Publication de jeux de données** : Permet aux producteurs de partager leurs données avec la communauté.
 - **Déclaration et gestion des métadonnées** : Facilite la catégorisation et l'indexation des données pour une recherche et une utilisation ultérieures plus efficaces.
-- **Hébergement sous la responsabilité des producteurs** : Les nœuds peuvent être hébergés directement par les producteurs de données ou via des nœuds mutualisés proposés par la gouvernance de la plateforme.
 
+## Principes de Conception
 
+Le nœud producteur de RUDI est conçu selon les principes suivants :
+- Implémentation de la norme [RUDI API](https://app.swaggerhub.com/apis/OlivierMartineau/RUDI-PRODUCER/1.2.3).
+- Publication des métadonnées des jeux de données sur la plateforme principale Rennes-Métropole RUDI (rudi.bzh).
+- Fonctionnement indépendant en tant que plateforme OpenData autonome.
+- Architecture modulaire basée sur des micro-services.
 
+## Architecture
 
-
-
-
-
-
-
-
-
-
-![](logo.png)
-
-RUDI Producer Node - Rudi producer package for release deployments
-=====================================================================
-
-The RUDI Producer Node groups all the modules required for the
-deployment of fully managable RUDI producer Node as defined in [RUDI
-Open-Data](https://rudi.datarennes.fr/) project.
-
-The purpose of a RUDI producer node is to provide the technology able
-to store and manage the metadata and data (media) of the datasets
-owned by a particular contributor in the open-data RUDI federation.
-
-This software was designed with the following principles:
-   * It proposes a reference implementation of the standard [RUDI API](https://app.swaggerhub.com/apis/OlivierMartineau/RUDI-PRODUCER/1.2.3).
-   * It is able to publish the metadata of datasets to the main Rennes-Métropole RUDI platform (rudi.bzh)
-   * It is completely independent, and can be used as a standalone OpenData platform.
-   * It is modular and relies and a set of micro-services.
-   * Its is only based on free and open-source technologies and release under an open-source license.
-
-The current architecture can be simplified as the following:
+L'architecture actuelle se présente comme suit :
 
 ```text
      |             | RUDI
@@ -60,53 +40,42 @@ The current architecture can be simplified as the following:
                             PostFiles
 ```
 
-  * The main module "API" implements the storate and management of metadata of datasets.
-  * The module "MANAGER" implements the user management and provide a Web interface to the "API".
-  * The module "CONSOLE" implements forms and metadata queries with a Web interface. It is operated via the "MANAGER".
-  * The module "MEDIA" is a driver for the storage of media/files referenced by metadata.
+- **API** : Gère le stockage et la gestion des métadonnées des jeux de données.
+- **MANAGER** : Gère les utilisateurs et fournit une interface web à l'API.
+- **CONSOLE** : Implémente les formulaires et les requêtes de métadonnées via une interface web, opérée par le module MANAGER.
+- **MEDIA** : Gère le stockage des médias/fichiers référencés par les métadonnées.
 
-The following modules/libraries are also provided:
-  * The logger library (shared between all modules) used to forward all logs to a syslog.
-  * The Token manager library (JWT) used to create and manage access tokens between modules.
+Modules et bibliothèques additionnels :
+- **Logger** : Bibliothèque partagée entre tous les modules pour la gestion des logs vers un syslog.
+- **Token Manager (JWT)** : Crée et gère les jetons d'accès entre les modules.
 
-## Technical high-level description
+## Installation
 
-All projects are node.js projects, and except the rudilogger (a
-library), they are run as standalone applications. The standard NPM
-installation procedure can be used.
+Pour installer RUDI, veuillez vous référer au [guide d'installation du nœud producteur](INSTALL.md).
 
-### Dependencies and installation
+## Problèmes, Questions ou Propositions d'Améliorations
 
-The *rudilogger* library is referenced by the rudi-media, rudi-api,
-and rudi-manager. The logger package is also available using the
-[*aqmo.org*](https://repository.aqmo.org/npm/) package manager.
+Nous avons prévu plusieurs espaces pour vos besoins :
+- [Issues](https://github.com/Rudi-pages-WIP/Rudi-Portal/issues) (pour les problèmes)
+- [Questions et réponses](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)
+- [Espace idées d'amélioration](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/id%C3%A9es)
+- [Feuille de route](https://github.com/orgs/Rudi-pages-WIP/projects/1)
 
-All modules shall be configured before running. Each has at least
-one configuration file, check the Readme file.
+Veuillez respecter le [code de conduite](https://github.com/Rudi-pages-WIP/Rudi-Portal?tab=coc-ov-file) lors de vos interactions sur ces espaces.
 
-A local MongoDB database is required by the rudi-api and is optional
-for the rudi-media modules. The location is specified in configuration
-file. The system has been tested using the MongoDB version 3.9.
+## Contribution
 
-Several modules require an access to public or private mongo-db
-database. The DB is mandatory only for the API module. The
-installation was validated using the MongoDB system version 3.9.
+Si vous souhaitez contribuer au code :
+1. Proposez votre idée dans l'[espace idées d'amélioration](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/id%C3%A9es) après avoir vérifié qu'une idée similaire n'existe pas déjà.
+2. Attendez une réponse de l'équipe produit et participez aux discussions constructives avec les autres membres.
+3. Si l'équipe produit approuvent votre idée, vous pouvez soumettre une Pull Request. Si vous n'avez pas les ressources nécessaires, mentionnez-le et l'idée sera ajoutée au backlog avec une étiquette appropriée ("en recherche de ressources").
 
-* * *
+Vous avez maintenant toutes les informations nécessaires pour installer et configurer le nœud producteur de RUDI. Pour toute question, rendez-vous sur la page [questions et réponses](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses).
 
-### Current deployment
-
-This package is currently used for the generation of various container
-images (OVA, LXD, etc.). A different project manages complex deployments.
-
-### Authors or Acknowledgments
+### Auteurs ou Remerciements
 *   (VALIDATION) François Bodin - Université Rennes 1
-*   (system & packaging) Laurent Morin - Université Rennes 1
+*   (système et packaging) Laurent Morin - Université Rennes 1
 *   (API) Olivier Martineau - Université Rennes 1
-*   (MANAGER) Yann Porret  - Keolis
+*   (GESTIONNAIRE) Yann Porret  - Keolis
 *   (CONSOLE) Florian Desmortreux - Université Rennes 1
-*   (MEDIA) Laurent Morin - Université Rennes 1
-
-### License
-
-This project is licensed under the [EUPL License v1.2](LICENCE.md).
+*   (MÉDIA) Laurent Morin - Université Rennes 1
