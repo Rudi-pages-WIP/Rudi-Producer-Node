@@ -32,7 +32,7 @@ Ce package est actuellement utilisé pour la génération de diverses images de 
 1. **Node.js** : Assurez-vous d'avoir Node.js installé (version recommandée 14.x ou supérieure).
 2. **MongoDB** : Installez MongoDB (version 3.9 recommandée).
 
-## Instructions d'Installation
+## Instructions d'installation
 
 ### 1. Cloner le dépôt
 
