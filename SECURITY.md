@@ -1,12 +1,44 @@
-# Security Policy
+## Politique de sécurité
 
-## Reporting a Vulnerability
+L'équipe produit et la communauté RUDI, prend la sécurité de la plateforme et des utilisateurs très au sérieux. L'équipe produit s'engage à analyser, répondre et traiter toute vulnérabilité signalée dans les plus brefs délais. Nous vous remercions de suivre la procédure ci-dessous pour signaler toute vulnérabilité.
 
-If there are any vulnerabilities in `RUDI producer node API`, don't hesitate to _report them_.
+### Signalement des vulnérabilités
 
-Please email `security@rudi-univ-rennes1.fr` and describe what you've found.
+Si vous découvrez une vulnérabilité dans notre code (Rudi Portal ou Rudi Producer Node), veuillez nous en informer de manière responsable. Vous pouvez signaler les vulnérabilités par courriel à :
 
-- If you have a fix, explain or attach it.
-- In the near time, expect a reply with the required steps. Also, there may be a demand for a pull request which include the fixes.
+**Email :** product@rudi.bzh
 
-> You should not disclose the vulnerability publicly if you haven't received an answer in some weeks. If the vulnerability is rejected, you may post it publicly within some hour of rejection, unless the rejection is withdrawn within that time period. After the vulnerability has been fixed, you may disclose the vulnerability details publicly over some days.
+Merci de fournir autant de détails que possible, notamment :
+
+- Une description de la vulnérabilité
+- Les étapes à suivre pour reproduire la vulnérabilité
+- Toute preuve de concept (POC) ou code exploit
+- Vos idées ou recommandations pour résoudre la vulnérabilité
+
+### Traiter les signalements
+
+Nous examinerons et analyserons chaque signalement de vulnérabilité avec soin. Voici les étapes que nous suivrons une fois votre signalement reçu :
+
+1. **Confirmation de réception :** Nous accuserons réception de votre rapport dans les 48 heures.
+2. **Analyse :** Nos ingénieurs analyseront la vulnérabilité signalée dans les plus brefs délais.
+3. **Mise en place du correctif :** Si la vulnérabilité est confirmée, nous travaillerons à un correctif ou un patch qui sera déployé le plus rapidement possible.
+4. **Notification :** Une fois le correctif appliqué, nous vous notifierons et remercierons pour votre contribution.
+
+### Programme de récompense
+
+Actuellement, nous n'avons pas de programme public de récompense pour la déclaration des vulnérabilités. Cependant, nous apprécions grandement les contributions de la communauté et les signalements responsables.
+
+### Communication de sécurité générale
+
+Pour des questions générales ou des préoccupations liées à la sécurité, veuillez contacter notre équipe de sécurité à l'email fourni ci-dessus.
+
+### Publication des correctifs
+
+Nous nous engageons à publier des avis de sécurité pour toutes les vulnérabilités confirmées accompagnés des informations suivantes :
+
+- Description de la vulnérabilité
+- Versions affectées
+- Mesures de mitigation ou correctifs
+- Remerciements aux chercheurs en sécurité, le cas échéant.
+
+
