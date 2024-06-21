@@ -10,6 +10,9 @@ Bienvenue dans le dépôt de code du nœud producteur de RUDI. Ce dépôt regrou
 - **Contrôle des conditions d'accès aux données** : Facilite la définition des permissions, garantissant une maîtrise complète de la diffusion.
 - **Intégration simple avec le portail** : Permet l'importation automatique des métadonnées dans le portail RUDI pour une découverte et une accessibilité accrues.
 
+> **Note**: Le Rudi Producer Node synchronise les données avec le portail RUDI. Les informations publiées via ce nœud sont automatiquement reflétées sur le portail, où elles peuvent être explorées et utilisées par les utilisateurs finaux. Pour plus de détails sur le portail, consultez le [repository du Rudi Portal 🧑‍💻](https://github.com/Rudi-pages-WIP/Rudi-Portal).
+
+
 ## Principes de Conception
 
 Le nœud producteur de RUDI est conçu selon les principes suivants :
@@ -55,12 +58,12 @@ Pour installer RUDI, veuillez vous référer au [guide d'installation du nœud p
 
 Nous accueillons et encourageons les contributions de la communauté. Voici comment vous pouvez participer :
 
-- [Signaler un bug ou proposer une nouvelle fonctionnalité](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node/issues)
-- Résoudre des budgs (rdv sur la page issues) et développer de nouvelles fonctionnalités (quand l'équipe produit accepte votre proposition, vous pouvez aussi la développer et soumettre une PR)
+- [Signaler un bug](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node/issues) ou [proposer une nouvelle fonctionnalité](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/id%C3%A9es)
+- Résoudre des budgs ([rendez-vous sur la page issues](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node/issues)) et développer de nouvelles fonctionnalités (quand l'équipe produit accepte votre proposition, vous pouvez aussi la développer et soumettre une PR)
 - [Participer aux discussions de la communauté](https://github.com/orgs/Rudi-pages-WIP/discussions)
 - [Poser des questions et répondre aux questions des autres](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)
 
-Avant de contribuer, veuillez consulter notre [guide de contribution](CONTRIBUTING.md) et notre [code de conduite](CODE_OF_CONDUCT.md).
+Avant de contribuer, veuillez consulter notre [guide de contribution](https://github.com/Rudi-pages-WIP/.github/blob/main/profile/CONTRIBUTING.md) et notre [code de conduite](https://github.com/Rudi-pages-WIP/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ### Auteurs et remerciements
 *   (VALIDATION) François Bodin - Université Rennes 1
