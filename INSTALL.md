@@ -76,20 +76,4 @@ npm start
 
 Assurez-vous que tous les modules fonctionnent correctement en vérifiant les logs et en accédant aux interfaces web si disponibles.
 
-## Problèmes, questions ou propositions d'améliorations
-
-Nous avons prévu plusieurs espaces pour vos besoins :
-- [Issues](https://github.com/Rudi-pages-WIP/Rudi-Portal/issues) (pour les problèmes)
-- [Questions et réponses](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)
-- [Espace idées d'amélioration](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/id%C3%A9es)
-- [Feuille de route](https://github.com/orgs/Rudi-pages-WIP/projects/1)
-
-Veuillez respecter le [code de conduite](https://github.com/Rudi-pages-WIP/Rudi-Portal?tab=coc-ov-file) lors de vos interactions sur ces espaces.
-
-## Contribution
-
-Si vous souhaitez contribuer au code, veuillez suivre les étapes ci-dessous :
-1. Proposez votre idée dans l'[espace idées d'amélioration](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/id%C3%A9es).
-2. Attendez une réponse des mainteneurs et participez aux discussions constructives avec les autres membres.
-3. Si les mainteneurs approuvent votre idée, vous pouvez soumettre une Pull Request.
 
