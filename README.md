@@ -2,23 +2,21 @@
 
 # Dépôt de code de Nœud Producteur de RUDI
 
-Bienvenue dans le dépôt de code du nœud producteur de RUDI. Ce dépôt regroupe toutes les fonctionnalités nécessaires à la publication de données, telles que le chargement des jeux de données et la déclaration des métadonnées. Le nœud producteur de RUDI est défini dans le projet [RUDI Open-Data](https://rudi.datarennes.fr/).
-
-## Rôle du Nœud Producteur RUDI
-
-Les nœuds peuvent être hébergés directement par les producteurs de données ou via des nœuds mutualisés proposés par la gouvernance de la plateforme.
+Bienvenue dans le dépôt de code du nœud producteur de RUDI. Ce dépôt regroupe toutes les fonctionnalités nécessaires à la publication de données, telles que le chargement des jeux de données et la déclaration des métadonnées. Le nœud producteur de RUDI est un composant clé du projet [RUDI Open-Data](https://rudi.datarennes.fr/), permettant aux producteurs de données de décrire, stocker, fixer les conditions d'accès et publier leurs jeux de données. Ce nœud est conçu pour être à la fois polyvalent et modulaire, offrant des solutions de publication de données adaptées à divers types de producteurs. Les nœuds peuvent être hébergés directement par les producteurs de données ou via des nœuds mutualisés proposés par la gouvernance de la plateforme.
 
 **Fonctionnalités principales :**
 - **Publication de jeux de données** : Permet aux producteurs de partager leurs données avec la communauté.
-- **Déclaration et gestion des métadonnées** : Facilite la catégorisation et l'indexation des données pour une recherche et une utilisation ultérieures plus efficaces.
+- **Déclaration et gestion des métadonnées** : Assiste les producteurs dans la description de leurs ensembles de données et la gestion des informations associées.
+- **Contrôle des conditions d'accès aux données** : Facilite la définition des permissions, garantissant une maîtrise complète de la diffusion.
+- **Intégration simple avec le portail** : Permet l'importation automatique des métadonnées dans le portail RUDI pour une découverte et une accessibilité accrues.
 
 ## Principes de Conception
 
 Le nœud producteur de RUDI est conçu selon les principes suivants :
-- Implémentation de la norme [RUDI API](https://app.swaggerhub.com/apis/OlivierMartineau/RUDI-PRODUCER/1.2.3).
-- Publication des métadonnées des jeux de données sur la plateforme principale Rennes-Métropole RUDI (rudi.bzh).
-- Fonctionnement indépendant en tant que plateforme OpenData autonome.
-- Architecture modulaire basée sur des micro-services.
+- **Interopérabilité** : Implémentation de la norme [RUDI API](https://app.swaggerhub.com/apis/OlivierMartineau/RUDI-PRODUCER/1.2.3) pour assurer l'interopérabilité avec d'autres systèmes et services.
+- **Publication facilitée** : Publication des métadonnées des jeux de données sur la plateforme principale Rennes-Métropole RUDI (rudi.bzh) pour simplifier l'accès et la réutilisation des données.
+- **Autonomie** : Fonctionnement indépendant en tant que plateforme OpenData autonome pour les producteurs qui souhaitent avoir leur propre instance de publication.
+- **Micro-services** : Architecture modulaire basée sur des micro-services pour une intégration et une maintenance aisées des différentes fonctionnalités.
 
 ## Architecture
 
@@ -53,15 +51,16 @@ Modules et bibliothèques additionnels :
 
 Pour installer RUDI, veuillez vous référer au [guide d'installation du nœud producteur](INSTALL.md).
 
-## Problèmes, Questions ou Propositions d'Améliorations
+## Contribuer au Nœud Producteur
 
-Nous avons prévu plusieurs espaces pour vos besoins :
-- [Issues](https://github.com/Rudi-pages-WIP/Rudi-Portal/issues) (pour les problèmes)
-- [Questions et réponses](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)
-- [Espace idées d'amélioration](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/id%C3%A9es)
-- [Feuille de route](https://github.com/orgs/Rudi-pages-WIP/projects/1)
+Nous accueillons et encourageons les contributions de la communauté. Voici comment vous pouvez participer :
 
-Veuillez respecter le [code de conduite](https://github.com/Rudi-pages-WIP/Rudi-Portal?tab=coc-ov-file) lors de vos interactions sur ces espaces.
+- [Signaler un bug ou proposer une nouvelle fonctionnalité](https://github.com/Rudi-pages-WIP/Rudi-Producer-Node/issues)
+- Résoudre des budgs (rdv sur la page issues) et développer de nouvelles fonctionnalités (quand l'équipe produit accepte votre proposition, vous pouvez aussi la développer et soumettre une PR)
+- [Participer aux discussions de la communauté](https://github.com/orgs/Rudi-pages-WIP/discussions)
+- [Poser des questions et répondre aux questions des autres](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses)
+
+Avant de contribuer, veuillez consulter notre [guide de contribution](CONTRIBUTING.md) et notre [code de conduite](CODE_OF_CONDUCT.md).
 
 ## Contribution
 
