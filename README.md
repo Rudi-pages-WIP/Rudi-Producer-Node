@@ -2,7 +2,7 @@
 
 # Dépôt de code de Nœud Producteur de RUDI
 
-Bienvenue dans le dépôt de code du nœud producteur de RUDI. Ce dépôt regroupe toutes les fonctionnalités nécessaires à la publication de données, telles que le chargement des jeux de données et la déclaration des métadonnées. Le nœud producteur de RUDI est un composant clé du projet [RUDI Open-Data](https://rudi.datarennes.fr/), permettant aux producteurs de données de décrire, stocker, fixer les conditions d'accès et publier leurs jeux de données. Ce nœud est conçu pour être à la fois polyvalent et modulaire, offrant des solutions de publication de données adaptées à divers types de producteurs. Les nœuds peuvent être hébergés directement par les producteurs de données ou via des nœuds mutualisés proposés par la gouvernance de la plateforme.
+Bienvenue dans le dépôt de code du nœud producteur de RUDI. Ce dépôt regroupe toutes les fonctionnalités nécessaires à la publication de données, telles que le chargement des jeux de données et la déclaration des métadonnées. Le nœud producteur de RUDI est un composant clé du projet [RUDI](https://github.com/Rudi-pages-WIP), permettant aux producteurs de données de décrire, stocker, fixer les conditions d'accès et publier leurs jeux de données. Ce nœud est conçu pour être à la fois polyvalent et modulaire, offrant des solutions de publication de données adaptées à divers types de producteurs. Les nœuds peuvent être hébergés directement par les producteurs de données ou via des nœuds mutualisés proposés par la gouvernance de la plateforme.
 
 **Fonctionnalités principales :**
 - **Publication de jeux de données** : Permet aux producteurs de partager leurs données avec la communauté.
@@ -54,7 +54,7 @@ Modules et bibliothèques additionnels :
 
 Pour installer RUDI, veuillez vous référer au [guide d'installation du nœud producteur](INSTALL.md).
 
-## Contribuer au Nœud Producteur
+## Contribuer au nœud producteur
 
 Nous accueillons et encourageons les contributions de la communauté. Voici comment vous pouvez participer :
 
