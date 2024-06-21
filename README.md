@@ -62,16 +62,7 @@ Nous accueillons et encourageons les contributions de la communauté. Voici comm
 
 Avant de contribuer, veuillez consulter notre [guide de contribution](CONTRIBUTING.md) et notre [code de conduite](CODE_OF_CONDUCT.md).
 
-## Contribution
-
-Si vous souhaitez contribuer au code :
-1. Proposez votre idée dans l'[espace idées d'amélioration](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/id%C3%A9es) après avoir vérifié qu'une idée similaire n'existe pas déjà.
-2. Attendez une réponse de l'équipe produit et participez aux discussions constructives avec les autres membres.
-3. Si l'équipe produit approuvent votre idée, vous pouvez soumettre une Pull Request. Si vous n'avez pas les ressources nécessaires, mentionnez-le et l'idée sera ajoutée au backlog avec une étiquette appropriée ("en recherche de ressources").
-
-Vous avez maintenant toutes les informations nécessaires pour installer et configurer le nœud producteur de RUDI. Pour toute question, rendez-vous sur la page [questions et réponses](https://github.com/orgs/Rudi-pages-WIP/discussions/categories/questions-et-r%C3%A9ponses).
-
-### Auteurs ou Remerciements
+### Auteurs et remerciements
 *   (VALIDATION) François Bodin - Université Rennes 1
 *   (système et packaging) Laurent Morin - Université Rennes 1
 *   (API) Olivier Martineau - Université Rennes 1
